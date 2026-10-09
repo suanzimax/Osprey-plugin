@@ -1,0 +1,107 @@
+[
+  {
+    "user_query": "显示储存环 01 号聚焦磁铁的电流读出 PV",
+    "targeted_pv": ["SR:MAG:QF:01:CURRENT:RB"],
+    "category": "single"
+  },
+  {
+    "user_query": "Show the setpoint PV for the focusing quadrupole QF03 in the storage ring",
+    "targeted_pv": ["SR:MAG:QF:03:CURRENT:SP"],
+    "category": "single"
+  },
+  {
+    "user_query": "列出储存环所有聚焦四极磁铁的电流设定值",
+    "targeted_pv": [
+      "SR:MAG:QF:01:CURRENT:SP",
+      "SR:MAG:QF:02:CURRENT:SP",
+      "SR:MAG:QF:03:CURRENT:SP",
+      "SR:MAG:QF:04:CURRENT:SP"
+    ],
+    "category": "aggregate"
+  },
+  {
+    "user_query": "列一下储存环里全部散焦磁铁的励磁电流 PV",
+    "targeted_pv": [
+      "SR:MAG:QD:01:CURRENT:SP",
+      "SR:MAG:QD:01:CURRENT:RB",
+      "SR:MAG:QD:02:CURRENT:SP",
+      "SR:MAG:QD:02:CURRENT:RB"
+    ],
+    "category": "aggregate"
+  },
+  {
+    "user_query": "储存环的 BPM 01 到 BPM 03 三个水平位置读数",
+    "targeted_pv": [
+      "SR:DIAG:BPM:01:X:POSITION:RB",
+      "SR:DIAG:BPM:02:X:POSITION:RB",
+      "SR:DIAG:BPM:03:X:POSITION:RB"
+    ],
+    "category": "subset"
+  },
+  {
+    "user_query": "我要找储存环的束流寿命 PV，是哪一个",
+    "targeted_pv": ["SR:DIAG:DCCT:01:LIFETIME:RB"],
+    "category": "semantic"
+  },
+  {
+    "user_query": "打开真空阀 VLV01 用哪个 PV",
+    "targeted_pv": ["SR:VAC:VALVE:01:OPEN:SP"],
+    "category": "semantic"
+  },
+  {
+    "user_query": "Set the focusing quadrupole QF02 horizontal corrector current",
+    "targeted_pv": [
+      "SR:MAG:COR:02:X:CURRENT:SP",
+      "SR:MAG:COR:02:X:CURRENT:RB"
+    ],
+    "category": "semantic"
+  },
+  {
+    "user_query": "问下 03 号校正磁铁哪个是可写的",
+    "targeted_pv": ["SR:MAG:COR:03:X:CURRENT:SP"],
+    "category": "write"
+  },
+  {
+    "user_query": "RF 主腔 01 现在输入功率是多少",
+    "targeted_pv": ["SR:RF:CAV:01:POWER:RB"],
+    "category": "single"
+  },
+  {
+    "user_query": "把紫外激光器 UV01 功率设到 1.5 瓦用哪个 PV",
+    "targeted_pv": ["LASER:UV:01:POWER:SP"],
+    "category": "write"
+  },
+  {
+    "user_query": "把靶位置 X 方向挪到 5 毫米用哪个 PV",
+    "targeted_pv": ["HEBT:TRGT:POS:X:SP"],
+    "category": "write"
+  },
+  {
+    "user_query": "列出储存环前 3 个 BPM 的水平位置偏置 PV",
+    "targeted_pv": [
+      "SR:DIAG:BPM:01:X:POSITION:SP",
+      "SR:DIAG:BPM:02:X:POSITION:SP",
+      "SR:DIAG:BPM:03:X:POSITION:SP"
+    ],
+    "category": "subset"
+  },
+  {
+    "user_query": "显示储存环束流位置监测组的总 PV 数",
+    "targeted_pv": [
+      "SR:DIAG:BPM:01:X:POSITION:RB",
+      "SR:DIAG:BPM:01:Y:POSITION:RB",
+      "SR:DIAG:BPM:01:X:POSITION:SP",
+      "SR:DIAG:BPM:01:Y:POSITION:SP",
+      "SR:DIAG:BPM:02:X:POSITION:RB",
+      "SR:DIAG:BPM:02:Y:POSITION:RB",
+      "SR:DIAG:BPM:03:X:POSITION:RB",
+      "SR:DIAG:BPM:03:Y:POSITION:RB"
+    ],
+    "category": "aggregate"
+  },
+  {
+    "user_query": "打靶位置束流截面监测的是哪个 PV",
+    "targeted_pv": ["HEBT:BEAM:PROFILE:RB"],
+    "category": "single"
+  }
+]
