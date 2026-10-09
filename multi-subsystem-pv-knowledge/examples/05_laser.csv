@@ -1,0 +1,15 @@
+address,description,family_name,instances,sub_channel
+LASER:UV:01:POWER:SP,紫外激光器 UV01 输出功率设定值,UV 激光器组,1-2,POWER:SP
+LASER:UV:01:POWER:RB,紫外激光器 UV01 输出功率读出值,UV 激光器组,1-2,POWER:RB
+LASER:UV:01:REPRATE:SP,紫外激光器 UV01 重复频率设定值,UV 激光器组,1-2,REPRATE:SP
+LASER:UV:01:REPRATE:RB,紫外激光器 UV01 重复频率读出值,UV 激光器组,1-2,REPRATE:RB
+LASER:UV:01:ENERGY:RB,紫外激光器 UV01 单脉冲能量读出值,UV 激光器组,1-2,ENERGY:RB
+LASER:UV:01:STATUS:RB,紫外激光器 UV01 总体状态标志,UV 激光器组,1-2,STATUS:RB
+LASER:UV:02:POWER:SP,紫外激光器 UV02 输出功率设定值,UV 激光器组,1-2,POWER:SP
+LASER:UV:02:POWER:RB,紫外激光器 UV02 输出功率读出值,UV 激光器组,1-2,POWER:RB
+LASER:IR:01:POWER:SP,红外激光器 IR01 输出功率设定值,IR 激光器组,1-1,POWER:SP
+LASER:IR:01:POWER:RB,红外激光器 IR01 输出功率读出值,IR 激光器组,1-1,POWER:RB
+LASER:IR:01:WAVELEN:RB,红外激光器 IR01 当前波长读出值,IR 激光器组,1-1,WAVELEN:RB
+LASER:DIODE:01:CURRENT:SP,激光二极管 DIODE01 驱动电流设定值,激光二极管组,1-8,CURRENT:SP
+LASER:DIODE:01:CURRENT:RB,激光二极管 DIODE01 驱动电流读出值,激光二极管组,1-8,CURRENT:RB
+LASER:DIODE:01:TEMP:RB,激光二极管 DIODE01 冷却端温度读出值,激光二极管组,1-8,TEMP:RB

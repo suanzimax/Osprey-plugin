@@ -1,0 +1,16 @@
+address,description,family_name,instances,sub_channel
+HEBT:TRGT:CHM:01:PRESSURE:RB,靶室 CHM01 真空度读出值,HEBT 靶室真空组,1-4,PRESSURE:RB
+HEBT:TRGT:CHM:01:TEMP:RB,靶室 CHM01 内部温度读出值,HEBT 靶室真空组,1-4,TEMP:RB
+HEBT:TRGT:CHM:02:PRESSURE:RB,靶室 CHM02 真空度读出值,HEBT 靶室真空组,1-4,PRESSURE:RB
+HEBT:TRGT:CHM:02:TEMP:RB,靶室 CHM02 内部温度读出值,HEBT 靶室真空组,1-4,TEMP:RB
+HEBT:TRGT:POS:X:SP,靶位置 X 方向设定值,HEBT 靶位置控制组,1-1,X:SP
+HEBT:TRGT:POS:Y:SP,靶位置 Y 方向设定值,HEBT 靶位置控制组,1-1,Y:SP
+HEBT:TRGT:POS:Z:SP,靶位置 Z 方向设定值,HEBT 靶位置控制组,1-1,Z:SP
+HEBT:TRGT:POS:X:RB,靶位置 X 方向读出值,HEBT 靶位置控制组,1-1,X:RB
+HEBT:TRGT:POS:Y:RB,靶位置 Y 方向读出值,HEBT 靶位置控制组,1-1,Y:RB
+HEBT:TRGT:POS:Z:RB,靶位置 Z 方向读出值,HEBT 靶位置控制组,1-1,Z:RB
+HEBT:TRGT:MTR:01:STATE:RB,靶电机 MTR01 状态读出值,HEBT 靶电机组,1-3,STATE:RB
+HEBT:TRGT:MTR:01:VELOCITY:SP,靶电机 MTR01 速度设定值,HEBT 靶电机组,1-3,VELOCITY:SP
+HEBT:TRGT:MTR:01:POS:RB,靶电机 MTR01 当前位置读出值,HEBT 靶电机组,1-3,POS:RB
+HEBT:BEAM:CURRENT:RB,打靶位置束流总电流读出值,HEBT 束流监测组,1-1,CURRENT:RB
+HEBT:BEAM:PROFILE:RB,打靶位置束流截面读出值,HEBT 束流监测组,1-1,PROFILE:RB

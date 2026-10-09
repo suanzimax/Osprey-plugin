@@ -1,0 +1,16 @@
+address,description,family_name,instances,sub_channel
+SR:RF:CAV:01:POWER:SP,主 RF 腔 CAV01 输入功率设定值,SR 储存环主腔组,1-4,POWER:SP
+SR:RF:CAV:01:POWER:RB,主 RF 腔 CAV01 输入功率读出值,SR 储存环主腔组,1-4,POWER:RB
+SR:RF:CAV:01:FREQ:SP,主 RF 腔 CAV01 谐振频率设定值,SR 储存环主腔组,1-4,FREQ:SP
+SR:RF:CAV:01:FREQ:RB,主 RF 腔 CAV01 谐振频率读出值,SR 储存环主腔组,1-4,FREQ:RB
+SR:RF:CAV:01:VOLT:RB,主 RF 腔 CAV01 腔压读出值,SR 储存环主腔组,1-4,VOLT:RB
+SR:RF:CAV:01:TUNE:SP,主 RF 腔 CAV01 调谐位置设定值,SR 储存环主腔组,1-4,TUNE:SP
+SR:RF:CAV:01:TUNE:RB,主 RF 腔 CAV01 调谐位置读出值,SR 储存环主腔组,1-4,TUNE:RB
+SR:RF:CAV:02:POWER:SP,主 RF 腔 CAV02 输入功率设定值,SR 储存环主腔组,1-4,POWER:SP
+SR:RF:CAV:02:POWER:RB,主 RF 腔 CAV02 输入功率读出值,SR 储存环主腔组,1-4,POWER:RB
+SR:RF:CAV:02:FREQ:RB,主 RF 腔 CAV02 谐振频率读出值,SR 储存环主腔组,1-4,FREQ:RB
+SR:RF:CAV:02:VOLT:RB,主 RF 腔 CAV02 腔压读出值,SR 储存环主腔组,1-4,VOLT:RB
+SR:RF:CAV:03:POWER:SP,主 RF 腔 CAV03 输入功率设定值,SR 储存环主腔组,1-4,POWER:SP
+SR:RF:CAV:03:POWER:RB,主 RF 腔 CAV03 输入功率读出值,SR 储存环主腔组,1-4,POWER:RB
+BR:RF:CAV:01:POWER:SP,增强器 RF 腔 BRCAV01 功率设定值,BR 增强器 RF 腔组,1-2,POWER:SP
+BR:RF:CAV:01:POWER:RB,增强器 RF 腔 BRCAV01 功率读出值,BR 增强器 RF 腔组,1-2,POWER:RB

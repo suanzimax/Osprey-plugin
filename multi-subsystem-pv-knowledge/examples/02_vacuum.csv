@@ -1,0 +1,16 @@
+address,description,family_name,instances,sub_channel
+SR:VAC:CCG:01:PRESSURE:RB,冷阴极真空计 CCG01 真空度读出值,SR 储存环冷阴极组,1-24,PRESSURE:RB
+SR:VAC:CCG:02:PRESSURE:RB,冷阴极真空计 CCG02 真空度读出值,SR 储存环冷阴极组,1-24,PRESSURE:RB
+SR:VAC:CCG:03:PRESSURE:RB,冷阴极真空计 CCG03 真空度读出值,SR 储存环冷阴极组,1-24,PRESSURE:RB
+SR:VAC:TCG:01:PRESSURE:RB,热阴极真空计 TCG01 真空度读出值,SR 储存环热阴极组,1-16,PRESSURE:RB
+SR:VAC:TCG:02:PRESSURE:RB,热阴极真空计 TCG02 真空度读出值,SR 储存环热阴极组,1-16,PRESSURE:RB
+SR:VAC:IP:01:PRESSURE:RB,离子泵 IP01 真空度读出值,SR 储存环离子泵组,1-32,PRESSURE:RB
+SR:VAC:IP:02:PRESSURE:RB,离子泵 IP02 真空度读出值,SR 储存环离子泵组,1-32,PRESSURE:RB
+SR:VAC:IP:03:PRESSURE:RB,离子泵 IP03 真空度读出值,SR 储存环离子泵组,1-32,PRESSURE:RB
+SR:VAC:VALVE:01:OPEN:SP,真空阀 VLV01 开启命令,SR 储存环真空阀门组,1-16,OPEN:SP
+SR:VAC:VALVE:01:CLOSE:SP,真空阀 VLV01 关闭命令,SR 储存环真空阀门组,1-16,CLOSE:SP
+SR:VAC:VALVE:01:STATE:RB,真空阀 VLV01 当前状态读出值 0=关 1=开,SR 储存环真空阀门组,1-16,STATE:RB
+SR:VAC:VALVE:02:OPEN:SP,真空阀 VLV02 开启命令,SR 储存环真空阀门组,1-16,OPEN:SP
+SR:VAC:VALVE:02:CLOSE:SP,真空阀 VLV02 关闭命令,SR 储存环真空阀门组,1-16,CLOSE:SP
+SR:VAC:VALVE:02:STATE:RB,真空阀 VLV02 当前状态读出值 0=关 1=开,SR 储存环真空阀门组,1-16,STATE:RB
+SR:VAC:RING:STATUS:RB,环真空总体状态标志,SR 储存环真空阀门组,1-1,STATUS:RB

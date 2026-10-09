@@ -1,0 +1,15 @@
+address,description,family_name,instances,sub_channel
+SR:DIAG:BPM:01:X:POSITION:RB,BPM01 水平方向束流位置读出值,SR 储存环束流位置监测组,1-40,X:POSITION:RB
+SR:DIAG:BPM:01:Y:POSITION:RB,BPM01 垂直方向束流位置读出值,SR 储存环束流位置监测组,1-40,Y:POSITION:RB
+SR:DIAG:BPM:01:X:POSITION:SP,BPM01 水平方向束流位置偏置设定值,SR 储存环束流位置监测组,1-40,X:POSITION:SP
+SR:DIAG:BPM:01:Y:POSITION:SP,BPM01 垂直方向束流位置偏置设定值,SR 储存环束流位置监测组,1-40,Y:POSITION:SP
+SR:DIAG:BPM:02:X:POSITION:RB,BPM02 水平方向束流位置读出值,SR 储存环束流位置监测组,1-40,X:POSITION:RB
+SR:DIAG:BPM:02:Y:POSITION:RB,BPM02 垂直方向束流位置读出值,SR 储存环束流位置监测组,1-40,Y:POSITION:RB
+SR:DIAG:BPM:03:X:POSITION:RB,BPM03 水平方向束流位置读出值,SR 储存环束流位置监测组,1-40,X:POSITION:RB
+SR:DIAG:BPM:03:Y:POSITION:RB,BPM03 垂直方向束流位置读出值,SR 储存环束流位置监测组,1-40,Y:POSITION:RB
+SR:DIAG:DCCT:01:CURRENT:RB,束流总电流 DCCT01 读出值,SR 储存环束流强度监测组,1-4,CURRENT:RB
+SR:DIAG:DCCT:02:CURRENT:RB,束流总电流 DCCT02 读出值 备份通道,SR 储存环束流强度监测组,1-4,CURRENT:RB
+SR:DIAG:DCCT:01:LIFETIME:RB,由 DCCT01 计算的束流寿命读出值,SR 储存环束流强度监测组,1-4,LIFETIME:RB
+SR:DIAG:BLM:01:RADIATION:RB,束损探测器 BLM01 辐射强度读出值,SR 储存环束损监测组,1-32,RADIATION:RB
+SR:DIAG:BLM:02:RADIATION:RB,束损探测器 BLM02 辐射强度读出值,SR 储存环束损监测组,1-32,RADIATION:RB
+SR:DIAG:BCM:01:RATE:RB,束流损失率 BCM01 读出值,SR 储存环束损监测组,1-4,RATE:RB
